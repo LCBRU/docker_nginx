@@ -4,7 +4,7 @@ This installs nginx to push requests to ports
 
 To **build** the image :
 
-  * sudo docker run -itd -p 80:80 lcbruit/nginx:v1.1
+  * sudo docker build -t lcbruit/nginx:v1.1 .
   
 To **run** the docker container :
  
