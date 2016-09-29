@@ -8,7 +8,7 @@ To **build** the image :
   
 To **run** the docker container :
  
-  * sudo docker run -itd -p 80:80 lcbruit/nginx:v1.1
+  * sudo docker run -itd -p 80:80 -v /share:/share/ lcbruit/nginx:v1.1
   
 To **connect** to container :
 
